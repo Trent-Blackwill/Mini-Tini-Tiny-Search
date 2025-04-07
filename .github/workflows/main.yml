@@ -1,5 +1,6 @@
 name: Generate xml sitemap
-
+permissions:
+  contents: write  # Allow push access to contents (repositories)
 on:
   push:
     branches: [ main ]
